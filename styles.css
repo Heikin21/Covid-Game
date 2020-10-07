@@ -1,30 +1,74 @@
 body {
 
 }
+#titleTemplate {
+	width: 1000px;
+	height: 50px;
+	background-color: #5a5e61;
+	margin: auto;
+	position: relative;
+}
 #title {
 	width: 500px;
-	height: 60px;
+	height: 50px;
 	font-size: 50px;
 	text-align: center;
 	background-color: #ffaa00;
-	margin: auto;
+	position: absolute;
+	left: 250px;
 }
-#Currency {
+#maskCounter {
 	width: 100px;
-	height: 40px;
-	background-color: #39cc18;
-	margin: auto;
+	height: 50px;
+	text-align: center;
+	background-color: #10eb47;
+	position: absolute;
+	right: 0px;
 }
 #CardTemplate {
-	width: 480px;
-	height: 420px;
+	width: 770px;
+	height: 490px;
 	background-color:#34dbeb;
 	margin: auto;
 }
-.Card {
-	width: 200px;
-	height: 100px;
-	float: left;
-	margin: 20px;
+.cardLeft {
+	width:250px;
+	height: 150px;
 	background-color: #d93e14;
+	float: left;
+	margin: 10px 0px 0px 10px;
+}
+.cardRight {
+	width: 250px;
+	height: 150px;
+	background-color: #d93e14;
+	float: left;
+	margin: 10px 10px 0px 0px;
+}
+.buttonLeft {
+	width: 20px;
+	height: 20px;
+	background-color: #d534eb;
+	float: left;
+	margin: 75px 100px 0px 5px;
+}
+.buttonRight {
+	width: 20px;
+	height: 20px;
+	background-color: #d534eb;
+	float: left;
+	margin: 75px 5px 0px 100px;
+}
+#submitButton {
+	width: 100px;
+	height: 40px;
+	margin: auto;
+	background-color: #ffaa00;
+	text-align: center;
+}
+#submitButton:hover {
+cursor: pointer;
+}
+#submitButton:active {
+	  transform: translateY(4px);
 }
