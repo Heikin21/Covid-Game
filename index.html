@@ -4,26 +4,20 @@
 	<meta charset="UTF-8">
 	<title> Covid Game </title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div id = 'titleTemplate'>
-		<div id = 'title'> Covid Game </div>
-		<div id = 'maskCounter'> Masks</div>
+	<div id = 'levelOne'> Level 1: Symptoms </div>
+	<div id = 'maskCounter'> Masks</div>
+	<div id='CardTemplate'>
+		<div id = 'one' class = 'card' onclick="cardTransform()"> </div>
+		<div id = 'two' class = 'card'> </div>
+		<div id = 'three' class = 'card'> </div>
+		<div id = 'four' class = 'card'> </div>
+		<div id = 'five' class = 'card'> </div>
+		<div id = 'six' class = 'card'> </div>
 	</div>
-	<div id = 'CardTemplate'>
-		<div id = 'one' class = 'cardLeft'> </div>
-			<div class = 'buttonLeft'></div>
-			<div class = 'buttonRight'></div>
-		<div id = 'two' class = 'cardRight'> </div>
-		<div id = 'three' class = 'cardLeft'> </div>
-			<div class = 'buttonLeft'></div>
-			<div class = 'buttonRight'></div>
-		<div id = 'four' class = 'cardRight'> </div>
-		<div id = 'five' class = 'cardLeft'> </div>
-			<div class = 'buttonLeft'></div>
-			<div class = 'buttonRight'></div>
-		<div id = 'six' class = 'cardRight'> </div>
-	</div>
-	<div id = 'submitButton'> Submit</div>
+	<div id = 'nextButton'> Next</div>
+	<script type = "text/javascript" src = "covid.js"></script>
 </body>
-</html>
+</html> 

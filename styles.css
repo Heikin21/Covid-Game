@@ -1,74 +1,74 @@
 body {
-
+	background-image: url(covid_images/game_background.jpeg);
 }
-#titleTemplate {
-	width: 1000px;
-	height: 50px;
-	background-color: #5a5e61;
-	margin: auto;
-	position: relative;
-}
-#title {
-	width: 500px;
+#levelOne {
+	width: 490px;
 	height: 50px;
 	font-size: 50px;
 	text-align: center;
-	background-color: #ffaa00;
-	position: absolute;
-	left: 250px;
+	font-family: Bangers;
+	margin: auto;
+	border-style: solid;
+	border-width: 5px;
+	background-color: #4fc1d1;
 }
 #maskCounter {
 	width: 100px;
 	height: 50px;
 	text-align: center;
-	background-color: #10eb47;
+	font-size: 38px;
 	position: absolute;
 	right: 0px;
+	top: 0px;
+	border-style: groove;
+	border-width: 2px;
+	border-color: #000000;
+	font-family: Bangers;
+	background-color: #ffffff;
 }
 #CardTemplate {
-	width: 770px;
-	height: 490px;
-	background-color:#34dbeb;
+	width: 490px;
+	height: 420px;
 	margin: auto;
+	border-style: solid;
+	border-width: 5px;
+	background-color: #81cad4;
 }
-.cardLeft {
-	width:250px;
-	height: 150px;
-	background-color: #d93e14;
+.card {
+	width: 200px;
+	height: 100px;
 	float: left;
-	margin: 10px 0px 0px 10px;
+	margin: 20px;
+	background-image: url(covid_images/card_back.png);
+	border-style: solid;
+	border-width: 2px;
+} 
+.card:hover {
+	box-shadow: 5px 10px 10px;
+	border-color: #9aff73;
+	transform: translateY(-10px);
+	transition-duration: 0.3s;
+	cursor: pointer;
+
 }
-.cardRight {
-	width: 250px;
-	height: 150px;
-	background-color: #d93e14;
-	float: left;
-	margin: 10px 10px 0px 0px;
-}
-.buttonLeft {
-	width: 20px;
-	height: 20px;
-	background-color: #d534eb;
-	float: left;
-	margin: 75px 100px 0px 5px;
-}
-.buttonRight {
-	width: 20px;
-	height: 20px;
-	background-color: #d534eb;
-	float: left;
-	margin: 75px 5px 0px 100px;
-}
-#submitButton {
+#nextButton {
 	width: 100px;
 	height: 40px;
 	margin: auto;
-	background-color: #ffaa00;
+	background-color: white;
 	text-align: center;
+	border-style: groove;
+	border-color: #000000;
+	border-width: 2px;
+	font-family: Bangers;
+	font-size: 35px;
 }
-#submitButton:hover {
-cursor: pointer;
+#nextButton:hover {
+	cursor: pointer;
+	background-color: #a80016;
+	color: black;
+	transition-duration: 0.5s;
 }
-#submitButton:active {
-	  transform: translateY(4px);
-}
+#nextButton:active {
+	transform: translateY(4px);
+	transition-duration:0s;
