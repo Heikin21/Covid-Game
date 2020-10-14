@@ -1,23 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title> Covid Game </title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div id = 'levelOne'> Level 1: Symptoms </div>
-	<div id = 'maskCounter'> Masks</div>
-	<div id='CardTemplate'>
-		<div id = 'one' class = 'card' onclick="cardTransform()"> </div>
-		<div id = 'two' class = 'card'> </div>
-		<div id = 'three' class = 'card'> </div>
-		<div id = 'four' class = 'card'> </div>
-		<div id = 'five' class = 'card'> </div>
-		<div id = 'six' class = 'card'> </div>
-	</div>
-	<div id = 'nextButton'> Next</div>
-	<script type = "text/javascript" src = "covid.js"></script>
+
+    <div class="container">
+        <header>
+            <h1>Level 1: Symptons</h1>
+        </header>
+
+        <ul class="deck" id="card-deck">
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+        </ul>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Symptons of COVID-19:</h2>
+                <div class="content-1">
+                    bla bla bla
+                    bla bla bla
+                    bla bla bla
+                    bla bla bla
+                    bla bla bla
+                    bla bla bla
+                    bla bla bla
+                </div>
+                <button onclick="window.location.href = 'second/second.html';" type="button" id="button" class="text">
+			<p>Next</p>
+        </button>
+    </div>
+</div>
+    <script src="match.js"></script>
 </body>
-</html> 
+</html>
