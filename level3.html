@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/3560966c14.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="level3.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Level 3: How it spreads</h1>
+        </header>
+
+        <ul class="deck" id="card-deck">
+            <li class="card" type="head-side-cough">
+                <i class="fas fa-head-side-cough"></i>
+            </li>
+            <li class="card" type="handshake">
+                <i class="far fa-handshake"></i>
+            </li>
+            <li class="card" type="handshake">
+                <i class="far fa-handshake"></i>
+            </li>
+            <li class="card" type="cloud-rain">
+                <i class="fas fa-cloud-rain"></i>
+            </li>
+            <li class="card" type="head-side-cough">
+                <i class="fas fa-head-side-cough"></i>
+            </li>
+            <li class="card" type="pump-soap">
+                <i class="fas fa-pump-soap"></i>
+            </li>
+            <li class="card" type="cloud-rain">
+                <i class="fas fa-cloud-rain"></i>
+            </li>
+            <li class="card" type="pump-soap">
+                <i class="fas fa-pump-soap"></i>
+            </li>
+        </ul>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>How COVID-19 spreads:</h2>
+                <ul class="content-1"> 
+                    <i class="far fa-handshake iconSpace"></i>
+                    People who are close to another person can get infected with COVID-19.
+                    <i class="far fa-handshake iconSpace"></i>
+                </ul>
+                <ul class="content-1"> 
+                    <i class="fas fa-head-side-cough iconSpace"></i>
+                    When people with COVID-19 cough, sneeze, sing, talk, or breathe they give off small, water droplets like rain that can infect others.
+                    <i class="fas fa-head-side-cough iconSpace"></i>
+                </ul>
+                <ul class="content-1"> 
+                    <i class="fas fa-cloud-rain iconSpace"></i>
+                    A person can get COVID-19 from the virus that stays in the air for a while.
+                    <i class="fas fa-cloud-rain iconSpace"></i>
+                </ul>
+                <ul class="content-1">
+                    <i class="fas fa-pump-soap iconSpace"></i>
+                     A person could get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or eyes.
+                    <i class="fas fa-pump-soap iconSpace"></i>
+                </ul>
+                <button onclick="window.location.href = 'second/second.html';" type="button" id="button" class="text">
+			<p>Next</p>
+        </button>
+    </div>
+</div>
+    <script src="match.js"></script>
+</body>
+</html>

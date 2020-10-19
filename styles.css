@@ -35,22 +35,19 @@ h1 {
 	font-family: 'Bangers', cursive;
 	text-align: center;
 	border: solid;
-	background-color: #b5b5b5;
+	background-color: #E5F720;
 }
 #subHeader {
 	font-family: 'Bangers', cursive;
 	text-align: center;
 	margin: auto;
-	background-color: #b5b5b5;
+	background-color: #E5F720;
 	border: solid;
 	width: 600px;
 	height: 30px;
 }
-
-/* Styles for the deck of cards */
-
 .deck {
-	background: #716F71;
+	background: #ffba42;
 	padding: 10px;
 	border-radius: 4px;
 	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
@@ -112,9 +109,6 @@ h1 {
 	pointer-events: none;
 	opacity: 0.9;
 }
-
-/* Styles for congratulations model*/
-
 .overlay {
 	position: fixed;
 	top: 0;
@@ -133,7 +127,7 @@ h1 {
 }
   
 .popup {
-	margin: 70px auto;
+	margin: 50px auto;
 	padding: 20px;
 	background: #ffffff;
 	border-radius: 5px;
@@ -192,8 +186,6 @@ background-color: #141214;
 	color: #ffffff;
 	border-radius: 5px;
 }
-
-/* animations */
 
 @keyframes flipCard {
 	from {
@@ -265,8 +257,6 @@ background-color: #141214;
 	}
 }
 
-/* Media queries */
-
 @media (max-width: 320px) {
 	.deck {
 		width: 85%;
@@ -277,8 +267,6 @@ background-color: #141214;
 		width: 4.7rem;
 	}
 }
-
-/* For Tablets and larger screens */
 
 @media (min-width: 768px) {
 	.container {
